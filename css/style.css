@@ -1,0 +1,46 @@
+body {
+    background: linear-gradient(to right, #2B989F,#3C30B4,#2B989F);
+}
+
+h1,a,p,h2,h3 {
+    font-family:'Carrios Gothic SC',sans-serif;
+    display: block;
+    text-align: center;
+    line-height:0.8;
+    color:beige;
+}
+
+.contenido{
+    max-width:1200px;
+    margin: 10rem auto 0 auto;
+    text-align: center;
+}
+
+h1{
+    font-size:4rem;
+}
+
+a {
+    font-size:1.4rem;
+}
+
+p {
+    font-size:2.0rem;
+}
+
+h2 {
+    color:black;
+}
+
+.grilla{
+    display:grid;
+    grid-template-columns:30% 30% 30%;
+    gap:80px;
+}
+
+.texto{
+    font:oblique bold 60% cursive;
+    color:black;
+    font-size:1.4rem
+}
+        
